@@ -1,0 +1,299 @@
+.image-diplomee {
+  max-width: 100%;
+  height: auto;
+  filter: brightness(0.5);
+}
+
+.main-container {
+  position: relative;
+}
+
+.image-container {
+  position: absolute;
+}
+
+.left-overlay {
+  position: absolute;
+  top: 0; /* Position the overlay at the top */
+  left: 0; /* Adjust the left position if needed */
+  width: 100%;
+  height: 20%; /* Adjust the height as needed */
+  background: white;
+}
+
+body {
+  margin: 0;
+}
+
+.logo-enit {
+  position: relative;
+  width: 45%;
+  height: auto;
+  display: block;
+}
+
+.logo-enit-container {
+  width: 14%;
+  padding-left: 2%;
+}
+
+.buttons-container {
+  position: absolute;
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr ;
+  gap: 2px;
+  height: 0;
+  top: 0;
+  margin-top: 2%;
+  right: 0;
+  margin-right: 1%;
+  width: 60%;
+}
+
+:root {
+  --clr-neon: hsl(210, 100%, 54%);
+  --clr-bg: hsl(0, 2%, 9%);
+}
+
+
+.neon-button {
+  font-size: 1.2em;
+  color: white;
+  background-color: var(--clr-neon);
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border: var(--clr-neon) 0.125em solid;
+  border-radius: 0.25em;
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
+  box-shadow: inset 0 0 0.5em 0 var(--clr-neon),;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 75%;
+  width: 100%;
+  
+  text-shadow: none;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.neon-button::before {
+  pointer-events: none;
+  position: absolute;
+  background: var(--clr-neon);
+  top: 120%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.neon-button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 2em 0.5em var(--clr-neon);
+  opacity: 0;
+  background-color: var(--clr-neon);
+  z-index: -1;
+  transition: opacity 100ms linear;
+}
+
+.neon-button:hover,
+.neon-button:focus {
+  box-shadow: none;
+}
+
+.neon-button:hover::before,
+.neon-button:focus::before {
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.neon-button:hover::after,
+.neon-button:focus::after {
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.paragraph-container {
+  color: var(--clr-neon);
+  position: absolute;
+  margin-left: 12%;
+  top: 0;
+}
+
+.font1 {
+  font-size: 72px;
+  font-weight: bolder;
+}
+
+.font2 {
+  color: rgb(168, 168, 97);
+}
+
+.font3 {
+  font-size: 32px;
+}
+
+
+/**/
+
+
+.new-content-soumettre {
+  height: 100%;
+  position: relative;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.container-soumettre-left{
+  margin-left: 20%;
+  max-width: 500px;
+}
+
+.container-soumettre-right{
+  max-width: 500px;
+}
+
+.Soumettre-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.new-content-rechercher {
+  height: 100%;
+  position: relative;
+}
+
+
+h1 {
+  width: 90%;
+  margin-bottom: 20px;
+  margin-left: 10%;
+}
+
+.phrase-ouverture{
+  font-size: 40px;
+  width: 80%;
+  margin-bottom: 3%;
+  background:#E1E6FA;
+  border-radius: 20px;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: var(--clr-neon);
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+button:hover {
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+input[type="date"] {
+  border: 2px solid #ccc;
+  margin-left: 10px;
+  border-radius: 5px; 
+  padding-left: 51px;
+  padding-right: 51px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 16px; 
+  color: #333;
+  background-color: #fff; 
+}
+
+
+h2{
+  margin-left: 30%;
+  margin-top: 2%;
+  font-size: 200%;
+}
+
+input[type="number"]{
+  width: 7%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+label[for="PubSc"]{
+  margin-left: 10%;
+}
+
+h3{
+  color:#ccc;
+  display:inline-block;
+  margin-left: 10%;
+}
+
+.soumettre-button-0{
+  width: 300px;
+  background-color: var(--clr-neon) ;
+  margin-left: 2%; 
+}
+
+.back-button{
+  background-color: var(--clr-neon);
+  margin-left: 1%;
+}
+
+.belt-area-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10%;
+  margin-left: 20%;
+  margin-top: 2%;
+  width: 146%;
+}
+
+.belt-area-container-1,
+.belt-area-container-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.upper-belt{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10%;
+}
+
+.lower-div{
+  position: absolute;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+  margin-top: 1%;
+}
+
+.lower-paragraph-container{
+  margin-right: 2%;
+}

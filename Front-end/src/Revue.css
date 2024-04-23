@@ -1,0 +1,109 @@
+.article-container{
+    height: 100%;
+    position: relative;
+    border-radius: 5px;
+    margin: 0 auto;
+    max-width: 80%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+.Revue-input{
+  resize: both;
+  overflow: auto;
+  display: block;
+  
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.Date{
+    margin-top: 3%;
+    margin-right: 3%;
+}
+
+
+label[for="option1"],
+label[for="option2"]{
+    top: 0;
+}
+
+.select-area{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ align-items: center;
+ padding-right: 25%;
+}
+
+.select-area-1
+{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.select-area-2{
+    
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.select-area-1 input{
+    width: 50%;
+    
+}
+
+.select-area-2 input{
+    width: 50%;
+}
+
+h1{
+    width: 90%;
+    margin-bottom: 20px;
+    margin-left: 10%;
+}
+
+button ,
+.enabled-button{
+    background-color: var(--clr-neon);
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+.select-area-container{
+    display:grid;
+    width: 100%;
+    grid-template-columns:  2fr 1fr;
+    margin-top: 2%;
+}
+
+.disabled-button{
+    background-color : gray;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}

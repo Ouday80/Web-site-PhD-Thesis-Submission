@@ -1,0 +1,126 @@
+.h1-style{
+    font-size: 40px;
+    width: 80%;
+}
+
+.search-box{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    border: var(--clr-neon) 0.25em solid;
+    border-radius: 0.5em;
+    width: 80%;
+    margin-left: 10%;
+    background:#E1E6FA;
+    margin-top: 2%;
+}
+
+.search-box-low{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 1%;
+}
+
+.lancer-button {
+    background-color: var(--clr-neon);
+    color: white;
+    padding: 9px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 90%;
+  }
+
+.acceuil-button{
+    background-color: var(--clr-neon);
+    color: white;
+    padding: 9px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 1%;
+}
+
+  
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.search-box-low-1{
+    margin-left: 10%;
+    margin-top: 7%;
+}
+
+.search-box-low-3{
+    padding-left: 5%;
+}
+
+.page-container-doct-result{
+    margin-left: 10%;
+}
+
+
+.upper-title{
+    font-size: 40px;
+    color: #213547;
+    margin-left: 25%;
+    background-color: burlywood;
+    margin: 0;
+    border-radius: 20px;
+}
+
+.coordonnee-doctorant-container{
+    background:#E1E6FA;
+    width: 85%;
+    border-radius: 20px;
+    padding-left: 5%;
+    padding-bottom: 1%;
+    margin-top: 1%;
+}
+.coordonnee-doctorant-container-low{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bold-content{
+    font-weight :bolder;
+}
+
+.upper-title-2{
+    font-size: 40px;
+    color: #213547;
+    margin-left: 0%;
+    background-color: pink;
+    margin: 0;
+    padding: 0;
+    border-radius: 80px;
+    width: fit-content;
+    margin-top: 2%;
+}
+
+.revue-item{
+    background:#E1E6FA;
+    border-radius: 20px;
+    width: 90%;
+    padding-bottom: 0.2px;
+    margin-bottom: 5px;
+    padding-left: 1%;
+}
+
+.search-box-Up{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 2fr;
+}

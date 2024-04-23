@@ -1,0 +1,33 @@
+h1{
+    width: 90%;
+    margin-bottom: 20px;
+    margin-left: 10%;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+Sujet-input{
+    resize: both;
+    overflow: auto;
+    display: block;
+}
+
+.date-container{
+    display: block;
+    margin-top: 1%;
+}
